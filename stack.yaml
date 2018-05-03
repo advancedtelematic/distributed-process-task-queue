@@ -1,0 +1,13 @@
+resolver: lts-11.7
+
+packages:
+  - .
+
+extra-deps:
+  - git: https://github.com/advancedtelematic/quickcheck-state-machine-distributed
+    commit: f4cbfbb98a09f89c34d8749ea9b9b72e0238861b
+  - QuickCheck-2.11.3
+
+nix:
+   enable: false
+   pure: false
