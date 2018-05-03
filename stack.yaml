@@ -4,8 +4,7 @@ packages:
   - .
 
 extra-deps:
-  - quickcheck-state-machine-distributed-0.0.0
-  - QuickCheck-2.11.3
+  - quickcheck-state-machine-distributed-0.0.1
 
 nix:
    enable: false
